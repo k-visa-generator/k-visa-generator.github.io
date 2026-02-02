@@ -1,0 +1,24 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "hugo-clarity"
+
+# 언어별 설정
+[languages]
+  [languages.en]
+    languageCode = "en-us"
+    languageName = "English"
+    weight = 1
+    title = "K-Visa Generator"
+    [languages.en.params]
+      introTitle = "Generate Your K-Visa Form Easily"
+      introSubtitle = "Simple, Fast, and Secure Service for Foreigners."
+
+  [languages.ko]
+    languageCode = "ko-kr"
+    languageName = "한국어"
+    weight = 2
+    title = "K-비자 생성기"
+    [languages.ko.params]
+      introTitle = "한국 비자 서류를 간편하게 생성하세요"
+      introSubtitle = "외국인을 위한 쉽고 빠른 비자 신청 보조 서비스입니다."
