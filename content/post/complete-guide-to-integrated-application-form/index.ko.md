@@ -11,16 +11,15 @@ featureImage: "/post/complete-guide-to-integrated-application-form/residence-car
 featureImageAlt: 'Residence Card' # Alternative text for featured image.
 # featureImageCap: 'This is the featured image.' # Caption (optional).
 thumbnail: "/post/complete-guide-to-integrated-application-form/residence-card.webp" # Sets thumbnail image appearing inside card on homepage.
-shareImage: "/images/path/share.png" # Designate a separate image for social media sharing.
+# shareImage: "/images/path/share.png" # Designate a separate image for social media sharing.
 codeMaxLines: 10 # Override global value for how many lines within a code block before auto-collapsing.
 codeLineNumbers: false # Override global value for showing of line numbers within code block.
 figurePositionShow: true # Override global value for showing the figure label.
 showRelatedInArticle: false # Override global value for showing related posts in this series at the end of the content.
 categories:
-  - Technology
+  - Visa
 tags:
-  - Tag_name1
-  - Tag_name2
+  - Residence_card
 ---
 
 드디어 한국에 도착하신 것을 환영합니다! 🎉

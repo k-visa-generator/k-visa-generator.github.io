@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "hugo-clarity"
 
+#[params]
+#  logo = "images/k-form-logo.png"
+
 # 언어별 설정
 [languages]
   [languages.en]
