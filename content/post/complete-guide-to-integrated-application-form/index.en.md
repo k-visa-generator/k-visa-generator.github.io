@@ -17,9 +17,9 @@ codeLineNumbers: false # Override global value for showing of line numbers withi
 figurePositionShow: true # Override global value for showing the figure label.
 showRelatedInArticle: false # Override global value for showing related posts in this series at the end of the content.
 categories:
-  - Visa
+  - Visa Guide
 tags:
-  - Residence_card
+  - Residence Card
 ---
 
 Welcome to Korea! 🎉
