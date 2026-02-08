@@ -1,6 +1,6 @@
 baseURL = "https://blog.k-form.kr/"
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'K-Visa Generator Blog'
 theme = "hugo-clarity"
 
 [params]
