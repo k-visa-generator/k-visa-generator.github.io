@@ -64,7 +64,7 @@ These are the basic documents required for all applicants, regardless of visa ty
 ### ✅ 3. Integrated Application Form
 * This is the Ministry of Justice Form No. 34.
 * Be sure to accurately fill out your name, date of birth, home address, and Korean address.
-* 📝 **Tip:** Is filling out the application form complicated? Anyone can easily and accurately create a PDF application using **[K-Visa Generator]**. (Service Link)
+* 📝 **Tip:** Is filling out the application form complicated? Anyone can easily and accurately create a PDF application using the **[K-Visa Generator](https://k-form.kr)**.
 
 ### ✅ 4. Proof of Residence
 This is one of the most difficult documents to obtain. Please prepare the documents appropriate to your housing type.
@@ -109,6 +109,6 @@ Additional documents required vary depending on your visa type.
 
 Try the **K-Visa Form Generator**, created to help you start your life in Korea. Simply answer the questions, and a standard application form (PDF) for submission to the Immigration Office will be automatically created.
 
-👉 **[Go to K-Visa Generator (link)]**
+### [🚀 Go to K-Visa Generator (Click)](https://k-form.kr)
 
 We hope you prepare thoroughly and pass on your first try! Welcome to Korea! 🇰🇷

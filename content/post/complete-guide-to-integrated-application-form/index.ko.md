@@ -64,7 +64,7 @@ tags:
 ### ✅ 3. 통합신청서 (Integrated Application Form)
 * 법무부 제34호 서식입니다.
 * 이름, 생년월일, 본국 주소, 한국 주소 등을 정확히 기재해야 합니다.
-* 📝 **Tip:** 신청서 작성이 복잡한가요? **[K-Visa Generator]**를 사용하면 누구나 쉽고 정확하게 PDF 신청서를 만들 수 있습니다. (서비스 링크)
+* 📝 **Tip:** 신청서 작성이 복잡한가요? **[K-Visa Generator](https://k-form.kr)**를 사용하면 누구나 쉽고 정확하게 PDF 신청서를 만들 수 있습니다. (서비스 링크)
 
 ### ✅ 4. 체류지 입증 서류 (Proof of Residence)
 가장 까다로워하는 서류 중 하나입니다. 본인의 주거 형태에 맞는 서류를 준비하세요.
@@ -109,6 +109,6 @@ tags:
 
 여러분의 한국 생활 시작을 돕기 위해 만든 **K-Visa Form Generator**를 활용해 보세요. 질문에 답만 하면, 출입국 제출용 표준 신청서(PDF)가 자동으로 완성됩니다.
 
-👉 **[K-Visa Generator 바로가기 (링크)]**
+### [🚀 K-Visa Generator 바로가기 (Click)](https://k-form.kr)
 
 꼼꼼하게 준비하셔서 한 번에 통과하시길 응원합니다! Welcome to Korea! 🇰🇷
