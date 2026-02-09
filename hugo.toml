@@ -6,9 +6,11 @@ theme = "hugo-clarity"
 [params]
 #  logo = "images/k-form-logo.png"
   favicon = "/favicon.ico"
+  customCSS = ["sass/_custom.scss"]
 
 # 언어별 설정
 [languages]
+  # 1. English (기본)
   [languages.en]
     languageCode = "en-us"
     languageName = "English"
@@ -18,6 +20,7 @@ theme = "hugo-clarity"
       introTitle = "Generate Your K-Visa Form Easily"
       introSubtitle = "Simple, Fast, and Secure Service for Foreigners."
 
+  # 2. 한국어
   [languages.ko]
     languageCode = "ko-kr"
     languageName = "한국어"
@@ -26,3 +29,73 @@ theme = "hugo-clarity"
     [languages.ko.params]
       introTitle = "한국 비자 서류를 간편하게 생성하세요"
       introSubtitle = "외국인을 위한 쉽고 빠른 비자 신청 보조 서비스입니다."
+
+  # 3. Vietnamese (베트남어)
+  [languages.vi]
+    languageCode = "vi-vn"
+    languageName = "Tiếng Việt"
+    weight = 3
+    title = "K-Visa Generator"
+    [languages.vi.params]
+      introTitle = "Tạo đơn xin thị thực Hàn Quốc dễ dàng"
+      introSubtitle = "Dịch vụ đơn giản, nhanh chóng và an toàn cho người nước ngoài."
+
+  # 4. Chinese (중국어)
+  [languages.zh]
+    languageCode = "zh-cn"
+    languageName = "中文"
+    weight = 4
+    title = "韩国签证生成器"
+    [languages.zh.params]
+      introTitle = "轻松生成您的韩国签证申请表"
+      introSubtitle = "为外国人提供的简单、快速、安全的服务。"
+
+  # 5. Russian (러시아어)
+  [languages.ru]
+    languageCode = "ru-ru"
+    languageName = "Русский"
+    weight = 5
+    title = "Генератор виз K-Visa"
+    [languages.ru.params]
+      introTitle = "Создайте заявление на корейскую визу легко"
+      introSubtitle = "Простой, быстрый и безопасный сервис для иностранцев."
+
+  # 6. Uzbek (우즈베크어)
+  [languages.uz]
+    languageCode = "uz-uz"
+    languageName = "O'zbek"
+    weight = 6
+    title = "K-Visa Generatori"
+    [languages.uz.params]
+      introTitle = "Koreya viza arizasini osongina yarating"
+      introSubtitle = "Xorijliklar uchun oddiy, tez va xavfsiz xizmat."
+
+  # 7. Mongolian (몽골어)
+  [languages.mn]
+    languageCode = "mn-mn"
+    languageName = "Монгол"
+    weight = 7
+    title = "K-Visa Үүсгэгч"
+    [languages.mn.params]
+      introTitle = "Солонгосын визний мэдүүлгийг хялбархан бүрдүүлээрэй"
+      introSubtitle = "Гадаадын иргэдэд зориулсан хялбар, хурдан, найдвартай үйлчилгээ."
+
+  # 8. Nepali (네팔어)
+  [languages.ne]
+    languageCode = "ne-np"
+    languageName = "नेपाली"
+    weight = 8
+    title = "K-Visa जेनेरेटर"
+    [languages.ne.params]
+      introTitle = "तपाईंको कोरियाली भिसा आवेदन सजिलै सिर्जना गर्नुहोस्"
+      introSubtitle = "विदेशीहरूको लागि सरल, छिटो र सुरक्षित सेवा।"
+
+  # 9. Myanmar (미얀마어)
+  [languages.my]
+    languageCode = "my-mm"
+    languageName = "မြန်မာ"
+    weight = 9
+    title = "K-Visa ဂျင်နရေတာ"
+    [languages.my.params]
+      introTitle = "သင့်ကိုရီးယားဗီဇာလျှောက်လွှာကို လွယ်ကူစွာ ဖန်တီးပါ"
+      introSubtitle = "နိုင်ငံခြားသားများအတွက် ရိုးရှင်း၊ မြန်ဆန်ပြီး လုံခြုံသော ဝန်ဆောင်မှု။"
