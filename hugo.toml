@@ -13,7 +13,7 @@ theme = "hugo-clarity"
   # 1. English (기본)
   [languages.en]
     languageCode = "en-us"
-    languageName = "English"
+    languageName = "🇺🇸 English"
     weight = 1
     title = "K-Visa Generator"
     [languages.en.params]
@@ -23,7 +23,7 @@ theme = "hugo-clarity"
   # 2. 한국어
   [languages.ko]
     languageCode = "ko-kr"
-    languageName = "한국어"
+    languageName = "🇰🇷 한국어"
     weight = 2
     title = "K-비자 생성기"
     [languages.ko.params]
@@ -33,7 +33,7 @@ theme = "hugo-clarity"
   # 3. Vietnamese (베트남어)
   [languages.vi]
     languageCode = "vi-vn"
-    languageName = "Tiếng Việt"
+    languageName = "🇻🇳 Tiếng Việt"
     weight = 3
     title = "K-Visa Generator"
     [languages.vi.params]
@@ -43,7 +43,7 @@ theme = "hugo-clarity"
   # 4. Chinese (중국어)
   [languages.zh]
     languageCode = "zh-cn"
-    languageName = "中文"
+    languageName = "🇨🇳 中文"
     weight = 4
     title = "韩国签证生成器"
     [languages.zh.params]
@@ -53,7 +53,7 @@ theme = "hugo-clarity"
   # 5. Russian (러시아어)
   [languages.ru]
     languageCode = "ru-ru"
-    languageName = "Русский"
+    languageName = "🇷🇺 Русский"
     weight = 5
     title = "Генератор виз K-Visa"
     [languages.ru.params]
@@ -63,7 +63,7 @@ theme = "hugo-clarity"
   # 6. Uzbek (우즈베크어)
   [languages.uz]
     languageCode = "uz-uz"
-    languageName = "O'zbek"
+    languageName = "🇺🇿 O'zbek"
     weight = 6
     title = "K-Visa Generatori"
     [languages.uz.params]
@@ -73,7 +73,7 @@ theme = "hugo-clarity"
   # 7. Mongolian (몽골어)
   [languages.mn]
     languageCode = "mn-mn"
-    languageName = "Монгол"
+    languageName = "🇲🇳 Монгол"
     weight = 7
     title = "K-Visa Үүсгэгч"
     [languages.mn.params]
@@ -83,7 +83,7 @@ theme = "hugo-clarity"
   # 8. Nepali (네팔어)
   [languages.ne]
     languageCode = "ne-np"
-    languageName = "नेपाली"
+    languageName = "🇳🇵 नेपाली"
     weight = 8
     title = "K-Visa जेनेरेटर"
     [languages.ne.params]
@@ -93,7 +93,7 @@ theme = "hugo-clarity"
   # 9. Myanmar (미얀마어)
   [languages.my]
     languageCode = "my-mm"
-    languageName = "မြန်မာ"
+    languageName = "🇲🇲 မြန်မာ"
     weight = 9
     title = "K-Visa ဂျင်နရေတာ"
     [languages.my.params]
