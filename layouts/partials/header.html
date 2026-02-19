@@ -16,63 +16,97 @@
       {{- else }}
         {{ partial "nav" (dict "context" . "menu" .Site.Menus.main) }}
       {{- end }}
-      {{ if hugo.IsMultilingual }}
-      <div class="nav_item" style="display: flex; align-items: center; padding: 0 10px;">
 
-        <style>
-          .lang-select-wrapper {
-            position: relative;
-            display: inline-block;
+      {{ if hugo.IsMultilingual }}
+      <style>
+        .lang-select-wrapper {
+          position: relative;
+          display: inline-block;
+        }
+        .custom-lang-select {
+          appearance: none;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          background-color: rgba(255, 255, 255, 0.1);
+          border: 1px solid rgba(255, 255, 255, 0.3);
+          color: #ffffff;
+          padding: 6px 30px 6px 12px;
+          border-radius: 20px;
+          font-size: 0.85rem;
+          font-weight: 500;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+          background-repeat: no-repeat;
+          background-position: right 8px center;
+          background-size: 14px;
+        }
+
+        .custom-lang-select:hover {
+          background-color: rgba(255, 255, 255, 0.2);
+          border-color: rgba(255, 255, 255, 0.6);
+        }
+
+        .custom-lang-select:focus {
+          outline: none;
+          border-color: #ffffff;
+        }
+
+        .custom-lang-select option {
+          background-color: #ffffff;
+          color: #333333;
+          padding: 10px;
+        }
+
+        /* 💻 데스크탑: 메뉴와 다크모드 아이콘 사이 우측에 예쁘게 배치 */
+        @media screen and (min-width: 769px) {
+          .nav_lang_wrapper {
+            margin-left: auto;
+            margin-right: 1.5rem;
+            display: flex;
+            align-items: center;
+          }
+        }
+
+        /* 📱 모바일: 절대위치 해제 및 서랍장 내부 완벽 정렬 */
+        @media screen and (max-width: 768px) {
+          .nav_body {
+            display: flex;
+            flex-direction: column;
+            padding-top: 4.5rem; /* 로고 영역 피하기 */
+          }
+
+          /* 1. 테마의 다크모드 버튼 (위치 고정 및 좌측 여백 칼각) */
+          .nav_body .nav_theme,
+          .nav_body .color_mode {
+            position: relative !important;
+            top: auto !important;
+            right: auto !important;
+            left: auto !important;
+            margin: 0 0 1rem 1.5rem !important; /* 💡 하단 1rem, 좌측 1.5rem 고정 */
+            order: 1;
+            align-self: flex-start;
+          }
+
+          /* 2. 언어 선택기 배치 */
+          .nav_lang_wrapper {
+            order: 2;
+            margin: 0 1.5rem 1.5rem 0.5rem !important; /* 💡 상단 0, 좌측 1.5rem (다크모드와 동일) */
+            width: calc(100% - 3rem);
           }
           .custom-lang-select {
-            appearance: none;           /* 기본 화살표 제거 (Chrome, Safari) */
-            -webkit-appearance: none;   /* 기본 화살표 제거 (iOS) */
-            -moz-appearance: none;      /* 기본 화살표 제거 (Firefox) */
-
-            background-color: rgba(255, 255, 255, 0.1); /* 반투명 배경 */
-            border: 1px solid rgba(255, 255, 255, 0.3); /* 얇은 테두리 */
-            color: #ffffff;
-            padding: 6px 30px 6px 12px; /* 오른쪽 여백은 화살표 자리 */
-            border-radius: 20px;        /* 둥근 캡슐 모양 */
-            font-size: 0.85rem;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.3s ease;
-
-            /* 커스텀 화살표 아이콘 (SVG) */
-            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
-            background-repeat: no-repeat;
-            background-position: right 8px center;
-            background-size: 14px;
+            width: 100%;
           }
+        }
+      </style>
 
-          /* 마우스 올렸을 때 */
-          .custom-lang-select:hover {
-            background-color: rgba(255, 255, 255, 0.2);
-            border-color: rgba(255, 255, 255, 0.6);
-          }
-
-          /* 포커스 잡혔을 때 (접근성) */
-          .custom-lang-select:focus {
-            outline: none;
-            border-color: #ffffff;
-          }
-
-          /* 드롭다운 옵션 스타일 (펼쳤을 때는 가독성 위해 흰 배경) */
-          .custom-lang-select option {
-            background-color: #ffffff;
-            color: #333333;
-            padding: 10px;
-          }
-        </style>
-
-        <div class="lang-select-wrapper">
+      <div class="nav_item nav_lang_wrapper">
+        <div class="lang-select-wrapper" style="width: 100%;">
           <select class="custom-lang-select" onchange="location = this.value;">
               {{ range .Site.Home.AllTranslations }}
                   {{ $url := .Permalink }}
                   {{ $lang := .Language }}
 
-                  {{/* 현재 페이지의 번역본 찾기 */}}
                   {{ range $.AllTranslations }}
                       {{ if eq .Language.Lang $lang.Lang }}
                           {{ $url = .Permalink }}
@@ -85,9 +119,9 @@
               {{ end }}
           </select>
         </div>
-
       </div>
       {{- end }}
+
       {{- if $centerLogo }}
         {{- partial "logo" (dict "logo" $logo "class" "nav_center") }}
       {{- end }}
