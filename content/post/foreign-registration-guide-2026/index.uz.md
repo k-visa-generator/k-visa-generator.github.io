@@ -1,6 +1,6 @@
 ---
 title: "Koreyaga xush kelibsiz! 🇰🇷 D-2 talabalari uchun 'Chet ellik ID kartasini' olish bo'yicha to'liq qo'llanma (2026 yil)"
-date: 2026-02-19T19:00:00+09:00
+date: 2026-02-19T15:00:00+09:00
 description: "Kirishdan keyin 90 kun ichida majburiy bo'lgan chet ellikni ro'yxatga olish! Band qilish, kerakli hujjatlar (sil kasalligi testi bilan) va anketani oson to'ldirish ($3) sirlari."
 featured: false
 draft: false

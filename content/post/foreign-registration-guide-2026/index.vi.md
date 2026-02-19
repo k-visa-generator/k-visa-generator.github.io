@@ -1,6 +1,6 @@
 ---
 title: "Chào mừng đến Hàn Quốc! 🇰🇷 Hướng dẫn làm 'Thẻ người nước ngoài' cho du học sinh D-2 (Bản 2026)"
-date: 2026-02-19T16:00:00+09:00
+date: 2026-02-19T15:00:00+09:00
 description: "Hướng dẫn sinh tồn cho tân sinh viên! Từ cách đặt lịch hẹn, danh sách hồ sơ cần thiết (bao gồm giấy khám lao), đến mẹo điền tờ khai tích hợp ($3) nhanh gọn. Hoàn thành đăng ký người nước ngoài trong một lần đi."
 featured: false
 draft: false
