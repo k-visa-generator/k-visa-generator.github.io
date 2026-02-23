@@ -2,8 +2,12 @@
 title: "Can I enter on a Tourist Visa and switch to a Student Visa (D-2)? 🇰🇷 (The Ultimate Guide to Change of Status in Korea)"
 date: 2026-02-20T16:00:00+09:00
 description: "We've compiled all the scenarios—from Visa-Free (Tourist), D-4 (Language Trainee), to D-2-8 (Short-term Student)—to see if you can directly change your status to a regular student visa (D-2) from within Korea."
-featured: true
+featured: false
 toc: true
+featureImage: "/post/change-of-status-guide/switch-to-d2.png"
+featureImageAlt: 'Swith to D-2'
+thumbnail: "/post/change-of-status-guide/switch-to-d2.png"
+shareImage: "/post/change-of-status-guide/switch-to-d2.png"
 categories:
   - Visa Guide
   - Student Visa
@@ -70,7 +74,7 @@ Stop writing it by hand! With **K-Visa Application Helper**, you can download a 
 
 Beyond changing your visa, check out these essential guides every D-2 international student must know!
 
-* 📌 **[Are you a newly arrived freshman?]** <br> [2026 Edition] The Ultimate Foreign Resident Registration (ARC) Guide for D-2 Students (/post/foreign-registration-guide-2026/)
-* 📌 **[Is your visa expiration date approaching?]** <br> 🚨 Emergency Alert! D-2 Student Visa Extension: How to Finish in 3 Minutes Without Rejection (/post/international-student-visa-extension-guide/)
+* 📌 **[Are you a newly arrived freshman?]** <br> [[2026 Edition] The Ultimate Foreign Resident Registration (ARC) Guide for D-2 Students](/post/foreign-registration-guide-2026/)
+* 📌 **[Is your visa expiration date approaching?]** <br> 🚨 [Emergency Alert! D-2 Student Visa Extension: How to Finish in 3 Minutes Without Rejection](/post/international-student-visa-extension-guide/)
 
 Wishing you a successful study abroad experience in Korea! 🇰🇷✨
